@@ -12,9 +12,11 @@
 }
 
 .btn--primary {
-  background-color: var(--primary);
-  color: #242424;
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
   border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
 }
 
 .btn--outline {
@@ -61,7 +63,7 @@
   color: #242424;
 }
 
-.btn--wide:hover {
+.btn--wide:hover, .btn--primary {
   color: #fff;
   background-color: #f00846;
   transition: all 0.2s ease-out;

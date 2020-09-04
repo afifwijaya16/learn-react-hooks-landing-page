@@ -1,14 +1,12 @@
 import React from "react";
-import HeroSection from "../../components/HeroSection";
-import { homeObjOne, homeObjTwo, homeObjThree } from "./Data";
-import Pricing from "../../components/Pricing";
+import VideoSection from "../../components/VideoSection";
+import Cards from "../../components/Cards";
+
 function HomePage() {
   return (
     <div>
-      <HeroSection {...homeObjOne} />
-      <HeroSection {...homeObjThree} />
-      <Pricing />
-      <HeroSection {...homeObjTwo} />
+      <VideoSection/>
+      <Cards/>
     </div>
   );
 }
